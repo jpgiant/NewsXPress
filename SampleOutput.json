@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Rupert Murdoch says Fox News hosts endorsed false election fraud claims",
+      "description": "The billionaire's acknowledgement is revealed in a defamation case filed by Dominion Voting Systems.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64794606",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5775/production/_128798322_8154ba21e5d722c17cf6218e62e37bfcc4b4d74f0_0_4718_31921000x677.jpg",
+      "publishedAt": "2023-02-28T04:37:18.8884589Z",
+      "content": "Rupert Murdoch, the billionaire owner of Fox News, has acknowledged some of the network's stars endorsed false claims the 2020 election was stolen.\r\nBut he denied all of Fox backed Donald Trump's bas… [+1396 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US attaches childcare strings to chip-maker subsidies",
+      "description": "The White House has been frustrated in its efforts to expand national support for childcare.",
+      "url": "http://www.bbc.co.uk/news/business-64792718",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/117A5/production/_128798517_whatsubject.jpg",
+      "publishedAt": "2023-02-28T03:37:17.7315675Z",
+      "content": "The White House has been frustrated in its efforts to expand national support for childcare. Now it is trying again - although on a smaller scale.\r\nCompanies seeking to tap a new $40bn (£33bn) pool o… [+3506 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "China should be honest on Covid origin, says US envoy",
+      "description": "Beijing hits back that the outbreak's origin is \"about science and should not be politicised\".",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64794008",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/E9E7/production/_128797895_gettyimages-1332599635.jpg",
+      "publishedAt": "2023-02-28T02:22:15.2790368Z",
+      "content": "The US envoy to China has called on the country to be \"more honest\" about the origins of the Covid-19 virus. \r\nHis comments come a day after US media reported a federal agency had found the pandemic … [+2397 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "What to know about the Alex Murdaugh murder trial",
+      "description": "The defence rests its case in a double murder trial that has brought a powerful family to its knees.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64790627",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17169/production/_128796549_52709454325_f916942e17_k.jpg",
+      "publishedAt": "2023-02-28T02:22:14.2480441Z",
+      "content": "The defence has rested its case in the high-profile US trial of a former lawyer who is accused of murdering his wife and son.\r\nAlex Murdaugh, 54, a now-disbarred South Carolina attorney, has pleaded … [+5710 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Ron DeSantis tightens his control over Walt Disney World",
+      "description": "Walt Disney World's self-governing district is now under the control of Florida's governor.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64792926",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/932F/production/_128797673_fc5dc228387117371c811aa5de4115a8cc1375a30_0_5500_36671000x667.jpg",
+      "publishedAt": "2023-02-28T01:07:17.2626836Z",
+      "content": "Florida Governor Ron DeSantis warned people to \"buckle up\" as he signed a bill giving the state control over Disney's sprawling Orlando theme parks.\r\nThe bill strips power uniquely held by Disney for… [+3310 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC Sport",
+      "title": "Canada Soccer president resigns amid dispute",
+      "description": "Canada Soccer president Nick Bontis resigns amid an ongoing labour dispute between the governing body and the men's and women's national teams.",
+      "url": "http://www.bbc.co.uk/sport/football/64792987",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/12169/production/_128798047_gettyimages-1247382595.jpg",
+      "publishedAt": "2023-02-28T00:52:20.9034402Z",
+      "content": "Nick Bontis was elected Canada Soccer president in November 2020\r\nCanada Soccer president Nick Bontis has resigned amid an ongoing labour dispute between the governing body and the men's and women's … [+1873 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Ukraine war: Zelensky says situation in Bakhmut worsening",
+      "description": "Russian forces have been trying to capture the eastern city of Bakhmut for over six months.",
+      "url": "http://www.bbc.co.uk/news/world-europe-64793923",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/15C65/production/_128798198_gettyimages-1247538450.jpg",
+      "publishedAt": "2023-02-28T00:52:15.6060834Z",
+      "content": "The situation in the city of Bakhmut, on the eastern frontline, is becoming \"more and more difficult\", Ukraine's President Volodymyr Zelensky has said.\r\nRussian forces have been trying to take the ci… [+2909 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Israeli-American killed in West Bank as unrest intensifies",
+      "description": "The shooting happened after Israeli settlers attacked Palestinian villages on Sunday night.",
+      "url": "http://www.bbc.co.uk/news/world-middle-east-64793715",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2877/production/_128795301_mediaitem128795300.jpg",
+      "publishedAt": "2023-02-27T22:22:18.2375033Z",
+      "content": "Media caption, Watch: West Bank town set alight after Israelis killed\r\nAn Israeli-American has been shot and killed in the occupied West Bank as retaliatory unrest intensifies.\r\nThe man was killed in… [+3826 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Rishi Sunak hails new NI Brexit deal but DUP concerns remain",
+      "description": "The PM says the agreement for Northern Ireland is a breakthrough, as many Tory MPs express support.",
+      "url": "http://www.bbc.co.uk/news/uk-politics-64789639",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17D2B/production/_128797579_gettyimages-1470004709.jpg",
+      "publishedAt": "2023-02-27T21:22:15.9560324Z",
+      "content": "Media caption, Watch: Key moments from the PM's NI Brexit deal speech\r\nPrime Minister Rishi Sunak has hailed his deal on post-Brexit trading arrangements for Northern Ireland as a \"decisive breakthro… [+5710 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Winter storm brings snow to California and tornadoes to central US",
+      "description": "California's severe weather had moved eastward, with seven tornadoes reported in Oklahoma.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64789869",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A7DE/production/_128747924_gettyimages-1469920015.jpg",
+      "publishedAt": "2023-02-27T15:52:22.2371023Z",
+      "content": "A winter storm that brought unprecedented snow to southern California has moved eastward, bringing with it tornadoes and powerful winds. \r\nResidents in Oklahoma, Kansas, Missouri and Texas were asked… [+2864 chars]"
+    }
+  ]
+}
