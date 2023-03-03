@@ -11,11 +11,11 @@ export class NewsItem extends Component {
     };
     return (
       <div>
-        <div className="card my-3" style={{ width: "18rem" }}>
+        <div className="card my-3">
           <img src={imgURL} className="card-img-top" alt="..." />
           <div className="card-body" style={{ height: "280px"}}>
             <h5 className="card-title">{title}</h5>
-            <p className="card-text">{stringCompressor(description)}</p>
+            <p className="card-text">{description}</p>
             <a
               href={newsURL}
               className="btn btn-sm btn-primary"
