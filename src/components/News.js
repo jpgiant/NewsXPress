@@ -17,13 +17,24 @@ export class News extends Component {
     category: PropTypes.string,
   };
 
-  constructor() {
-    super();
+  // titleUpdater=(c)=>{
+  //   const str=c.charAt(0).toUpperCase()+c.slice(1)
+  //   return(str)
+  // }
+
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
     };
+    // document.title=`NewsXPress-${(this.props.category).charAt(0).toUpperCase()+(this.props.category).slice(1)}`
+    document.title = !(this.props.category === "general")
+      ? "NewsXPess-" +
+        this.props.category.charAt(0).toUpperCase() +
+        this.props.category.slice(1)
+      : "NewsXPress";
   }
   async componentDidMount() {
     // const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=a73500d68dc641abbac9277f2a0d864d&pageSize=${this.props.pageSize}`;
@@ -36,7 +47,7 @@ export class News extends Component {
     //   totalResults: parsed_data.totalResults,
     //   loading: false,
     // });
-    this.updateNews() 
+    this.updateNews();
   }
 
   updateNews = async () => {
@@ -71,7 +82,7 @@ export class News extends Component {
     //   loading: false,
     // });
     this.setState({ page: this.state.page - 1 });
-    this.updateNews()
+    this.updateNews();
   };
 
   handleNext = async () => {
@@ -98,13 +109,23 @@ export class News extends Component {
     //   });
     // }
     this.setState({ page: this.state.page + 1 });
-    this.updateNews()
+    this.updateNews();
   };
 
   render() {
     return (
       <div className="container my-3">
-        <h1 style={{ textAlign: "center" }}>Top News</h1>
+        <div style={{margin: "40px 0"}}>
+          <h1 style={{ textAlign: "center" }}>
+            {!(this.props.category === "general")
+              ? "Top News (" +
+                this.props.category.charAt(0).toUpperCase() +
+                this.props.category.slice(1) +
+                ")"
+              : "Top News"}
+          </h1>
+        </div>
+
         {this.state.loading && <Spinner />}
         <div className="row my-3">
           {!this.state.loading &&
