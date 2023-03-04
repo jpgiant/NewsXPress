@@ -17,11 +17,6 @@ export class News extends Component {
     category: PropTypes.string,
   };
 
-  // titleUpdater=(c)=>{
-  //   const str=c.charAt(0).toUpperCase()+c.slice(1)
-  //   return(str)
-  // }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -29,7 +24,6 @@ export class News extends Component {
       loading: false,
       page: 1,
     };
-    // document.title=`NewsXPress-${(this.props.category).charAt(0).toUpperCase()+(this.props.category).slice(1)}`
     document.title = !(this.props.category === "general")
       ? "NewsXPess-" +
         this.props.category.charAt(0).toUpperCase() +
@@ -51,16 +45,19 @@ export class News extends Component {
   }
 
   updateNews = async () => {
+    this.props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&page=${this.state.page}&category=${this.props.category}&apiKey=a73500d68dc641abbac9277f2a0d864d&pageSize=${this.props.pageSize}`;
-
     this.setState({ loading: true });
     let data = await fetch(url);
+    // this.props.setProgress(50);
     let parsed_data = await data.json();
+    // this.props.setProgress(70);
     this.setState({
       articles: parsed_data.articles,
       totalResults: parsed_data.totalResults,
       loading: false,
     });
+    this.props.setProgress(100);
   };
 
   handlePrevious = async () => {
@@ -115,7 +112,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <div style={{margin: "40px 0"}}>
+        <div style={{ margin: "40px 0" }}>
           <h1 style={{ textAlign: "center" }}>
             {!(this.props.category === "general")
               ? "Top News (" +
