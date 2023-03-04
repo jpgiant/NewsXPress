@@ -8,7 +8,7 @@ export class App extends Component {
   state=({
     progress: 0,
   });
-
+  apiKey=process.env.REACT_APP_NEWS_APP_API;
  setProgress = (p) => {
     this.setState({ progress: p });
   };
@@ -33,6 +33,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"general"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -45,6 +46,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"business"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -57,6 +59,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"entertainment"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -69,6 +72,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"health"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -81,6 +85,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"science"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -93,6 +98,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"sports"}
+                apiKey={this.apiKey}
               />
             }
           />
@@ -105,6 +111,7 @@ export class App extends Component {
                 pageSize={9}
                 country={"in"}
                 category={"technology"}
+                apiKey={this.apiKey}
               />
             }
           />
